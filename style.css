@@ -1,0 +1,129 @@
+
+        body {
+            background-color: #0d44ac;
+            color: #e0e0e0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: #080250;
+            width: 100%;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 40px;
+        }
+
+        header p {
+            color: #bbb;
+            font-size: 18px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .image-container img {
+            width: 450px;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+
+        .content-section {
+            background-color: #080250;
+            width: 80%;
+            max-width: 900px;
+            border-radius: 8px;
+        }
+
+        .achievements h2 {
+            color: #fff;
+            font-size: 30px;
+            border-bottom: 2px solid #f39c12;
+        }
+
+        .achievements h3 {
+            color: #f39c12;
+            font-size: 24px;
+        }
+
+        .achievements ul {
+            list-style: none;
+            text-align: left;
+        }
+
+        .achievements li {
+            font-size: 18px;
+            background:#080250;
+            border-radius: 5px;
+        }
+        
+        .journey h3 {
+            font-size: 30px;
+            color: #fff;
+            border-bottom: 2px solid #fff;
+        }
+
+        .journey h4 {
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #fff;
+            border-bottom: 1px solid #f39c12;
+        }
+
+        .journey p {
+            font-size: 17px;
+            line-height: 1.6;
+            color: #ccc;
+            text-align: left;
+        }
+        
+        footer {
+            background-color: #080250;
+            color: #999;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            bottom: 0px;    
+            }
+
+
+            .knoww {
+                background-color: #080250;
+            width: 80%;
+            max-width: 900px;
+            border-radius: 8px;
+            height: 20%;
+            }
+
+            .know{
+                display: flex;
+                flex-direction: row;
+            }
+            .know a{
+                background:#0d44ac;
+                text-decoration: none;
+                text-align: center;
+                color: white;
+                width: 30%;
+                margin: 5px;
+                margin-right: 7.5%;
+                margin-left: 7.5%;
+                border-radius: 10px;
+            }
